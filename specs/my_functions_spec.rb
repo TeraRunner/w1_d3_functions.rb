@@ -58,7 +58,7 @@ class MyFunctionsSpec < MiniTest::Test
 
   # Write a function that has one parameter hash
   # It should return the first key from the hash
-  
+
   def test_get_first_key
     # arrange
     wallets = {

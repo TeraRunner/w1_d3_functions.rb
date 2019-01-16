@@ -3,11 +3,8 @@ def add_array_lengths( array1, array2 )
   return array_lengh.length
 end
 
-
-
 def sum_array( numbers )
  result = 0
-
   for number in numbers
     total = result += number
   end
@@ -21,4 +18,8 @@ def find_item( array, name )
     end
   end
   return false
+end
+
+def get_first_key( hash )
+    first_key = hash.keys.first
 end
